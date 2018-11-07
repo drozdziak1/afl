@@ -1,0 +1,4 @@
+graph {
+	N1 [ip = "fd::1/128", command = "cat /dev/zero"];
+	N2 [ip = "fd::2/128"];
+}

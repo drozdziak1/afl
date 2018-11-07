@@ -1,0 +1,25 @@
+start_time     : 1541504172
+last_update    : 1541504829
+fuzzer_pid     : 11256
+cycles_done    : 4
+execs_done     : 13022
+execs_per_sec  : 19.84
+paths_total    : 5
+paths_favored  : 1
+paths_found    : 0
+paths_imported : 0
+max_depth      : 1
+cur_path       : 2
+pending_favs   : 0
+pending_total  : 0
+variable_paths : 0
+bitmap_cvg     : 0.22%
+unique_crashes : 0
+unique_hangs   : 0
+last_path      : 0
+last_crash     : 0
+last_hang      : 0
+exec_timeout   : 5000
+afl_banner     : babeld
+afl_version    : 1.95b
+command_line   : ./afl-fuzz -D 50 -t 5000+ -i in -o out -N udp://::1:6696 -- ../babeld-althea/babeld -I test.pid -L babeld.log -d 2 lo -h 1 -H 1 -C hello-interval 1
